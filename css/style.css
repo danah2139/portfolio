@@ -206,8 +206,16 @@ a {
 	padding: 0 20px;
 }
 
+form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
 #section-contact .form-group {
 	margin-bottom: 20px;
+	max-width: 350px;
 }
 
 #section-contact label {
@@ -219,7 +227,7 @@ a {
 #section-contact input,
 #section-contact textarea {
 	width: 100%;
-	padding: 10px 235px;
+	/* padding: 10px 200px; */
 	border: 1px #ddd solid;
 }
 
