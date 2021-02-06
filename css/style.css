@@ -41,7 +41,7 @@ a {
 
 /* navbar */
 
-.navbar {
+.navbar ul {
 	background: var(--secondery-color);
 	border-radius: 5px;
 	display: flex;
@@ -62,7 +62,7 @@ a {
 	text-decoration: none;
 	text-align: center;
 	display: block;
-	padding: 20px;
+	padding: 15px;
 }
 .navbar li a:hover {
 	border-bottom: 2px solid var(--third-color);
@@ -202,7 +202,7 @@ a {
 #section-contact .header {
 	margin: auto;
 	max-width: 1100px;
-	overflow: auto;
+	/* overflow: auto; */
 	padding: 0 20px;
 }
 
