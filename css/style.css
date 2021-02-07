@@ -171,12 +171,12 @@ a {
 /* Section about */
 
 .bg-pink .about {
-	font-size: 20px;
 	max-width: 530px;
 	height: 25vh;
 	/* padding: 30px; */
 	text-align: center;
-	font-size: 26px;
+	font-size: 35px;
+	margin-top: 52px;
 }
 
 .btn-cv {
@@ -185,7 +185,7 @@ a {
 	border-radius: 5px;
 	padding: 10px 30px;
 	margin-top: 20px;
-	font-size: 18px;
+	font-size: 25px;
 	margin-bottom: 40px;
 	display: inline-block;
 }
@@ -196,7 +196,7 @@ a {
 }
 
 #section-about {
-	justify-content: center;
+	justify-content: space-between;
 }
 
 /* #section-about .card {
