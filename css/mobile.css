@@ -10,7 +10,10 @@
 
 #section-home {
 	height: auto;
-	padding-top: 60px;
+	padding-top: 65px;
+}
+#section-home .v-btn {
+	margin-top: 15px;
 }
 
 #section-projects {
