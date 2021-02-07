@@ -29,8 +29,13 @@
 	flex-direction: column;
 }
 
-#section-about .card {
+#section-about {
+	justify-content: space-around;
+}
+
+#section-about .about {
 	font-size: 20px;
+	/* align-self: center; */
 }
 
 .flex-grid .column {
